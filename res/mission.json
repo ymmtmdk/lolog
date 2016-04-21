@@ -1,0 +1,37 @@
+[
+    {"fullname": "common/num_0", "threshold": 0.975, "filter": ["gray"]},
+    {"fullname": "common/num_1", "threshold": 0.975, "filter": ["gray"]},
+    {"fullname": "common/num_2", "threshold": 0.968, "filter": ["gray"]},
+    {"fullname": "common/num_3", "threshold": 0.952, "filter": ["gray"]},
+    {"fullname": "common/num_4", "threshold": 0.960, "filter": ["gray"]},
+    {"fullname": "common/num_5", "threshold": 0.958, "filter": ["gray"]},
+    {"fullname": "common/num_6", "threshold": 0.965, "filter": ["gray"]},
+    {"fullname": "common/num_7", "threshold": 0.955, "filter": ["gray"]},
+    {"fullname": "common/num_8", "threshold": 0.952, "filter": ["gray"]},
+    {"fullname": "common/num_9", "threshold": 0.952, "filter": ["gray"]},
+
+    {"fullname": "gold/num_0", "threshold": 0.983, "cond": "common/num_0"},
+    {"fullname": "gold/num_1", "threshold": 0.983, "cond": "common/num_1"},
+    {"fullname": "gold/num_2", "threshold": 0.983, "cond": "common/num_2"},
+    {"fullname": "gold/num_3", "threshold": 0.983, "cond": "common/num_3"},
+    {"fullname": "gold/num_4", "threshold": 0.983, "cond": "common/num_4"},
+    {"fullname": "gold/num_5", "threshold": 0.983, "cond": "common/num_5"},
+    {"fullname": "gold/num_6", "threshold": 0.983, "cond": "common/num_6"},
+    {"fullname": "gold/num_7", "threshold": 0.983, "cond": "common/num_7"},
+    {"fullname": "gold/num_8", "threshold": 0.983, "cond": "common/num_8"},
+    {"fullname": "gold/num_9", "threshold": 0.983, "cond": "common/num_9"},
+
+    {"fullname": "white/num_0", "threshold": 0.980, "cond": "common/num_0"},
+    {"fullname": "white/num_1", "threshold": 0.980, "cond": "common/num_1"},
+    {"fullname": "white/num_2", "threshold": 0.980, "cond": "common/num_2"},
+    {"fullname": "white/num_3", "threshold": 0.980, "cond": "common/num_3"},
+    {"fullname": "white/num_4", "threshold": 0.980, "cond": "common/num_4"},
+    {"fullname": "white/num_5", "threshold": 0.980, "cond": "common/num_5"},
+    {"fullname": "white/num_6", "threshold": 0.980, "cond": "common/num_6"},
+    {"fullname": "white/num_7", "threshold": 0.970, "cond": "common/num_7"},
+    {"fullname": "white/num_8", "threshold": 0.975, "cond": "common/num_8"},
+    {"fullname": "white/num_9", "threshold": 0.980, "cond": "common/num_9"},
+
+    {"fullname": "crit", "threshold": 0.970},
+    {"fullname": "miss", "threshold": 0.990}
+]
