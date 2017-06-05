@@ -25,6 +25,7 @@ pip install opencv_python-3.1.0+contrib-cp35-cp35m-win_amd64.whl
 ### Mac OS X
 
 ```
+brew tap homebrew/science
 brew install python3
 brew install numpy --with-python3
 brew link numpy
