@@ -29,7 +29,7 @@ brew tap homebrew/science
 brew install python3
 brew install numpy --with-python3
 brew link numpy
-brew install opencv3 --with-python3 --with-ffmpeg —without-python
+brew install opencv3 --with-python3 --with-ffmpeg
 brew link opencv3 --force
 ```
 
